@@ -7,11 +7,11 @@
 
 .right-window {height: 700px; width: 65%; border-left: 1px solid silver; padding-left: 20px; padding-top: 20px; font-size: 18px; float:left}
 
-.button {width: 90%; height: 50px; padding-top: 20px; margin: auto; margin-top:10px; margin-bottom: 10px; background: gray; text-align: center; font-size: 24px; font-style: bold; color: white; border-radius: 40px;}
+.button {width: 90%; height: 70px; padding-top: 20px; margin: auto; margin-top:10px; margin-bottom: 10px; background: gray; text-align: center; font-size: 24px; font-style: bold; color: white; border-radius: 40px;}
 
-.button:hover {width: 90%; height: 50px; padding-top: 20px; margin: auto; margin-top:10px; margin-bottom: 10px; background: green; text-align: center; font-size: 24px; font-style: bold; color: navy; border-radius: 40px;}
+.button:hover {width: 90%; height: 70px; padding-top: 20px; margin: auto; margin-top:10px; margin-bottom: 10px; background: green; text-align: center; font-size: 24px; font-style: bold; color: navy; border-radius: 40px;}
 
-.button:active {width: 90%; height: 50px; padding-top: 20px; margin: auto; margin-top:10px; margin-bottom: 10px; background: navy; text-align: center; font-size: 24px; font-style: bold; color: gray; border-radius: 40px; box-shadow: 5px 5px}
+.button:active {width: 90%; height: 70px; padding-top: 20px; margin: auto; margin-top:10px; margin-bottom: 10px; background: navy; text-align: center; font-size: 24px; font-style: bold; color: gray; border-radius: 40px; box-shadow: 5px 5px}
 
 .title {font-size: 36px; font-weight: bold}
 .center {
