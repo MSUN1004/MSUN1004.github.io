@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Matthew's Website.School</title>
+	<title>Matthew's Website</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- head -->
   <div class = "head-window">
-    Grafton Bethel Elementary School
+    Tools
   </div>
 
   <!-- body -->
@@ -15,26 +15,48 @@
     <!-- left window -->
     <div class = "left-window">
       <a href = "index.html"><div class = "button">Introduction</div></a>
-      <a href = "school.html"><div class = "button">School</div></a>
+      <a href = "school.html"><div class = "button">Tools</div></a>
        <a href = "hobby.html"><div class = "button">Hobbies</div></a>
        <a href = "pets.html"><div class = "button">Pets</div></a>
-       <a href = "video.html"><div class = "button">Videos</div></a>
-       <a href = "picture.html"><div class = "button">Drawings</div></a>
+       
     </div>
 
     <!-- right window -->
     <div class = "right-window">
-      <span class = "title">My School</span>
-      <br><span style = "font-weight: bold">Grafton Bethel Elementary School</span>
+      <span class = "title">Tools</span>
+      <br><span style = "font-weight: bold">DESMOS calculator and temperature converter</span>
       <br>
-     <img src="image/GBESfront.jpg" alt="My School" class="center"> 
-      <p style = "text-indent: 50px"><span style = "font-size: 24px;">GBES</span>is located in Yorktown, VA. It's encores include PE, Art, Library, and Music. Matthew is a fifth grade student there.  </p>
+
+      <div>
+       <title>Fahrenheit to Celcius Temperature Converter</title>
+<body>
+
+<h2>Temperature Converter</h2>
+<p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Celcius: <span id="outputCelcius"></span></p>
+
+<script>
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+}
+</script>
+</div>
+      <p style = "text-indent: 50px"><span style = "font-size: 24px;">Tools:</span>This page is for your conveience. It has a temperature converter, and a link to a DESMOS 4-function calculator. <a href="https://www.desmos.com/scientific">Here is the link</a>  </p>
+
+
+
     </div>
   </div>
 
   <!-- foot -->
   <div class = "foot-window">
-    243604@ystu.ycsd.york.va.us Copyright@2022
+    Copyright@2025
   </div> 
 </body>
 </html>
